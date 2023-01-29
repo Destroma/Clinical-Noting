@@ -2,6 +2,11 @@
     /*border: solid red 1px;*/
 }
 
+header p {
+    text-align: right;
+    font-weight: lighter;
+}
+
 body {
     font-family: sans-serif;
     color: rgb(1, 15, 52);
