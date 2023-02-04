@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<head>
+    <title>LocSSIP (Pleural)</title>
+    <link href="../styles.css" rel="stylesheet">
+</head>
+
+<header>
+    <p>V0.1 Last edit 04/02/2023</p>
+</header>
+
+<body>
+
+    <h1>LocSSIP (Pleural)</h1>
+
+    <section class="sign-in">
+        <h2>Sign In</h2>
+
+        <div class="infocontainer">
+
+            <br>
+            <p>To be read out before giving sedation/anaesthetic or starting procedure</p>
+
+            <div class="intro">
+                <h3>Have all team members been introduced by name and role?</h3>
+                <div class="radio">
+                    <label for="no1">No</label>
+                    <input type="radio" id="no1" name="intro">
+                </div>
+                <div class="radio">
+                    <label for="yes1">Yes</label>
+                    <input type="radio" id="yes1" name="intro">
+                </div>
+            </div>
+
+            <div class="identity">
+                <h3>Has the patient confirmed his/her identity, site, procedure and consent?</h3>
+                <div class="radio">
+                    <label for="no2">No</label>
+                    <input type="radio" id="no2" name="identity">
+                </div>
+                <div class="radio">
+                    <label for="yes2">Yes</label>
+                    <input type="radio" id="yes2" name="identity">
+                </div>
+            </div>
+
+            <div class="allergy">
+                <h3>Does the patient have a known allergy?</h3>
+                <div class="radio">
+                    <label for="no3">No</label>
+                    <input type="radio" id="no3" name="allergy">
+                </div>
+                <div class="radio">
+                    <label for="yes3">Yes</label>
+                    <input type="radio" id="yes3" name="allergy">
+                </div>
+            </div>
+
+            <p>Operator:</p>
+
+            <div class="consent">
+                <h3>Has the operator confirmed the site, procedure and consent form?</h3>
+                <div class="radio">
+                    <label for="no4">No</label>
+                    <input type="radio" id="no4" name="consent">
+                </div>
+                <div class="radio">
+                    <label for="yes4">Yes</label>
+                    <input type="radio" id="yes4" name="consent">
+                </div>
+            </div>
+
+            <div class="marked">
+                <h3>Has the procedure site been marked as indicated on the consent form?</h3>
+                <div class="radio">
+                    <label for="na5">N/A</label>
+                    <input type="radio" id="na5" name="marked">
+                </div>
+                <div class="radio">
+                    <label for="yes5">Yes</label>
+                    <input type="radio" id="yes5" name="marked">
+                </div>
+            </div>
+
+            <div class="imgrv">
+                <h3>Has essential imaging been reviewed?</h3>
+                <div class="radio">
+                    <label for="na6">N/A</label>
+                    <input type="radio" id="na6" name="imgrv">
+                </div>
+                <div class="radio">
+                    <label for="us">US Used</label>
+                    <input type="radio" id="us" name="imgrv">
+                </div>
+                <div class="radio">
+                    <label for="yes6">Yes</label>
+                    <input type="radio" id="yes6" name="imgrv">
+                </div>
+            </div>
+
+            <div class="imgdisp">
+                <h3>Is essential imaging displayed?</h3>
+                <div class="radio">
+                    <label for="na7">N/A</label>
+                    <input type="radio" id="na7" name="imgdisp">
+                </div>
+                <div class="radio">
+                    <label for="yes7">Yes</label>
+                    <input type="radio" id="yes7" name="imgdisp">
+                </div>
+            </div>
+
+            <div class="equip">
+                <h3>Is the required equipment available?</h3>
+                <div class="radio">
+                    <label for="no8">No</label>
+                    <input type="radio" id="no8" name="equip">
+                </div>
+                <div class="radio">
+                    <label for="yes8">Yes</label>
+                    <input type="radio" id="yes8" name="equip">
+                </div>
+            </div>
+
+            <div class="difficulties">
+                <h3>Are there increased risks of ventilator failure, airway difficulties or aspiration?</h3>
+                <div class="radio">
+                    <label for="no9">No</label>
+                    <input type="radio" id="no9" name="difficulties">
+                </div>
+                <div class="radio">
+                    <label for="yes9">Yes</label>
+                    <input type="radio" id="yes9" name="difficulties">
+                </div>
+            </div>
+
+            <div class="risks">
+                <h3>Have risk factors for bleeding and renal failure been considered?</h3>
+                <div class="radio">
+                    <label for="no10">No</label>
+                    <input type="radio" id="no10" name="risks">
+                </div>
+                <div class="radio">
+                    <label for="yes10">Yes</label>
+                    <input type="radio" id="yes10" name="risks">
+                </div>
+            </div>
+
+            <div class="critstep">
+                <h3>Are there any critical or unexpected steps you want the team to know about?</h3>
+                <div class="radio">
+                    <label for="no11">No</label>
+                    <input type="radio" id="no11" name="critstep">
+                </div>
+                <div class="radio">
+                    <label for="yes11">Yes</label>
+                    <input type="radio" id="yes11" name="critstep">
+                </div>
+            </div>
+
+            <p>Registered Practitioner:</p>
+
+            <div class="med">
+                <h3>Is monitoring and medication (including sedation reversal agent) check complete?</h3>
+                <div class="radio">
+                    <label for="na12">N/A</label>
+                    <input type="radio" id="na12" name="med">
+                </div>
+                <div class="radio">
+                    <label for="yes12">Yes</label>
+                    <input type="radio" id="yes12" name="med">
+                </div>
+            </div>
+
+            <div class="sterility">
+                <h3>Has the sterility of the equipment been confirmed (by date or other method)?</h3>
+                <div class="radio">
+                    <label for="no13">No</label>
+                    <input type="radio" id="no13" name="sterility">
+                </div>
+                <div class="radio">
+                    <label for="yes13">Yes</label>
+                    <input type="radio" id="yes13" name="sterility">
+                </div>
+            </div>
+
+            <div class="concerns">
+                <h3>Are there any equipment issues or concerns?</h3>
+                <div class="radio">
+                    <label for="no14">No</label>
+                    <input type="radio" id="no14" name="concerns">
+                </div>
+                <div class="radio">
+                    <label for="yes14">Yes</label>
+                    <input type="radio" id="yes14" name="concerns">
+                </div>
+            </div>
+
+            <p>Registered Practitioner confirms that the list has been read out</p>
+            <br>
+
+        </div>
+
+    </section>
+
+    <section class="sign-out">
+
+        <h2>Sign Out</h2>
+
+        <div class="infocontainer">
+
+            <br>
+            <p>To be read out loud before any member of the team leaves the procedure room</p>
+
+            <div class="record">
+                <h3>Has the name and site of the procedure been recorded?</h3>
+                <div class="radio">
+                    <label for="no15">No</label>
+                    <input type="radio" id="no15" name="record">
+                </div>
+                <div class="radio">
+                    <label for="yes15">Yes</label>
+                    <input type="radio" id="yes15" name="record">
+                </div>
+            </div>
+
+            <div class="sharps">
+                <h3>Have all needles, guide-wires and catheters used been accounted for?</h3>
+                <div class="radio">
+                    <label for="na16">N/A</label>
+                    <input type="radio" id="na16" name="sharps">
+                </div>
+                <div class="radio">
+                    <label for="yes16">Yes</label>
+                    <input type="radio" id="yes16" name="sharps">
+                </div>
+            </div>
+
+            <div class="specimins">
+                <h3>Have the specimens been labelled including patient name?</h3>
+                <div class="radio">
+                    <label for="na17">N/A</label>
+                    <input type="radio" id="na17" name="specimins">
+                </div>
+                <div class="radio">
+                    <label for="yes17">Yes</label>
+                    <input type="radio" id="yes17" name="specimins">
+                </div>
+            </div>
+
+            <div class="problems">
+                <h3>Have any equipment problems been identified that need to be addressed?</h3>
+                <div class="radio">
+                    <label for="no18">No</label>
+                    <input type="radio" id="no18" name="problems">
+                </div>
+                <div class="radio">
+                    <label for="yes18">Yes</label>
+                    <input type="radio" id="yes18" name="problems">
+                </div>
+            </div>
+
+            <div class="instruction">
+                <h3>Have instructions for post-procedural care for this patient been agreed?</h3>
+                <div class="radio">
+                    <label for="na19">N/A</label>
+                    <input type="radio" id="na19" name="instruction">
+                </div>
+                <div class="radio">
+                    <label for="yes19">Yes</label>
+                    <input type="radio" id="yes19" name="instruction">
+                </div>
+            </div>
+
+            <p>Registered Practitioner confirms that the list has been read out</p>
+            <br>
+
+        </div>
+
+    </section>
+
+</body>
